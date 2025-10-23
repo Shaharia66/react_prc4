@@ -5,6 +5,8 @@ import './App.css'
 import CollegeData from './nestedLoop'
 import Effect from './Hooks_useEffect'
 import Effects from './Hooks_useEffect'
+import Comp1 from './hooks_hndlprops'
+import Dynamic from './DynamicCSS'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
       <div>
         {/* <CollegeData/> */}
         {/* <Effects/> */}
+        {/* <Comp1/> */}
+        <Dynamic/>
 
       </div>
     </>
